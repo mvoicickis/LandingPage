@@ -1,0 +1,40 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  border: 2px solid black;
+}
+
+.hero-left {
+  flex: 1;
+}
+.hero-right {
+  flex: 1;
+}
+.hero-right img {
+  width: 50%;
+  height: auto;
+}
+
+li {
+  list-style-type: none;
+}
+
+.heropic {
+  width: 100%;
+}
