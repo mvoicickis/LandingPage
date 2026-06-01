@@ -45,13 +45,21 @@ li {
   border: 2px solid black;
   gap: 40px;
 }
+.infoHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: center;
+  border: 2px solid black;
+  gap: 40px;
+}
 
 .card {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  border: 2px solid black;
+  align-items: flex-end;
   text-align: center;
+  border: 2px solid black;
 }
 
 .square {
@@ -64,4 +72,40 @@ li {
   font-size: 14px;
   margin-top: 10px;
   width: 90px;
+}
+
+.quote-background {
+  display: flex;
+  border: 3px solid black;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.quote {
+  display: flex;
+  border: 3px solid black;
+  align-items: center;
+  text-align: center;
+}
+
+.blue_cta_container {
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px;
+
+  border: 2px solid black;
+}
+
+.white-background {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.cta-right {
+  margin-left: 300px;
+  margin-right: 100px;
 }
