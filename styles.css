@@ -38,3 +38,30 @@ li {
 .heropic {
   width: 100%;
 }
+
+.cards {
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
+  gap: 40px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid black;
+  text-align: center;
+}
+
+.square {
+  width: 90px;
+  height: 90px;
+  border: 3px solid black;
+}
+
+.card p {
+  font-size: 14px;
+  margin-top: 10px;
+  width: 90px;
+}
